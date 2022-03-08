@@ -20,7 +20,7 @@ const App = () => {
 
     useEffect(() => {
         searchMoovies(search);
-    }, []);
+    }, [search]);
 
     return (
         <div className="app">
