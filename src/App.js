@@ -4,7 +4,7 @@ import MoovieCard from "./MoovieCard.jsx";
 import searchIcon from "./search.svg";
 
 
-const API_URL = 'http://omdbapi.com?apikey=' + process.env.REACT_APP_OMDB_API_KEY;
+const API_URL = 'https://omdbapi.com?apikey=' + process.env.REACT_APP_OMDB_API_KEY;
 
 const App = () => {
 
